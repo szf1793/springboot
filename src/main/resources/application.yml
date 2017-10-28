@@ -12,7 +12,7 @@ msyql:
  
 spring:
    datasource:
-      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      driver-class-name: com.mysql.jdbc.Driver
       url: jdbc:mysql://localhost:3306/test_book
       username: root
       password: 123456
