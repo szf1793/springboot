@@ -1,0 +1,21 @@
+server:
+  port: 8888
+  context-path: /
+   
+helloWorld: Hello EveryBody
+   
+msyql:
+   jdbcName: com.mysql.jdbc.Driver
+   dbUrl: jdbc:mysql://localhost:3306/db_diary
+   userName: root
+   password: 123456
+ 
+spring:
+   datasource:
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      url: jdbc:sqlserver://10.18.21.88;DatabaseName=RMS
+      username: rms
+      password: rms12345
+   jpa:
+     hibernate.ddl-auto: update
+     show-sql: true
